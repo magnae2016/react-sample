@@ -4,6 +4,7 @@ import Page from "./components/ContextSample";
 import Message from "./components/Message";
 import Name from "./components/Name";
 import Hello from "./components/hello";
+import Counter from "./components/useReducerSample";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Message />
       <Parent />
       <Page />
+      <Counter initialValue={0} />
     </div>
   );
 }
