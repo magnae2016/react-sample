@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+  // 부적절한 코드를 감지하기 위한 헬퍼
   <React.StrictMode>
     <App />
   </React.StrictMode>
