@@ -5,7 +5,7 @@ import Message from "./components/Message";
 import Name from "./components/Name";
 import UseMemoSample from "./components/UseMemoSample";
 import Hello from "./components/hello";
-import Parent from "./components/useCallbackSample";
+import Parent from "./components/useContext";
 import Counter from "./components/useReducerSample";
 
 function App() {
