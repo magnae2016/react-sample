@@ -1,11 +1,12 @@
 import "./App.css";
-import Parent from "./components/useCallbackSample";
+import Clock from "./components/Clock";
 import Page from "./components/ContextSample";
 import Message from "./components/Message";
 import Name from "./components/Name";
-import Hello from "./components/hello";
-import Counter from "./components/useReducerSample";
 import UseMemoSample from "./components/UseMemoSample";
+import Hello from "./components/hello";
+import Parent from "./components/useCallbackSample";
+import Counter from "./components/useReducerSample";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Counter initialValue={0} />
       <Parent />
       <UseMemoSample />
+      <Clock />
     </div>
   );
 }
