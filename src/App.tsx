@@ -1,5 +1,5 @@
 import "./App.css";
-import Parent from "./components/ContainerSample";
+import Parent from "./components/useCallbackSample";
 import Page from "./components/ContextSample";
 import Message from "./components/Message";
 import Name from "./components/Name";
@@ -12,9 +12,9 @@ function App() {
       <Hello />
       <Name />
       <Message />
-      <Parent />
       <Page />
       <Counter initialValue={0} />
+      <Parent />
     </div>
   );
 }
